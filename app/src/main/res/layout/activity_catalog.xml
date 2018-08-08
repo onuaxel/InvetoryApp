@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+     <ListView
+         android:id="@+id/list"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/list_item_padding">
+
+        <ImageView
+            android:id="@+id/empty_stock_image"
+            android:layout_width="wrap_content"
+            android:layout_height="@android:dimen/thumbnail_height"
+            android:layout_centerHorizontal="false"
+            android:scaleType="fitStart"
+            android:src="@drawable/empty_storage_img" />
+
+        <TextView
+            android:id="@+id/empty_view_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/empty_stock_image"
+            android:text="@string/empty_view_text" />
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/list_item_padding"
+        android:src="@drawable/increment"/>
+
+</RelativeLayout>

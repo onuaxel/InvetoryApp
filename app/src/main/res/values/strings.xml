@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="empty_view_text">Wow, such empty</string>
+    <string name="product">Product</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="suppliers_name">Supplier</string>
+    <string name="suppliers_phone">Phone</string>
+    <string name="editor_activity_title_edit_product">Edit Product</string>
+
+    <string name="deleted_all_products_message">rows deleted from product table</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="quantity_changed">Product quantity changed</string>
+    <string name="storage_empty">Product not in storage, selling unsuccessful</string>
+
+    <string name="action_delete_all_entries">Delete All Products</string>
+    <string name="delete_all_dialog_msg">Delete All Products?</string>
+
+    <string name="add_product">Add New Product</string>
+    <string name="product_editor">Product Editor</string>
+    <string name="edit_product">Edit Product</string>
+    <string name="quantity_hint">How many?</string>
+
+    <string name="supplier_unknown">Unknown</string>
+    <string name="supplier_john">John</string>
+    <string name="supplier_mary">Mary</string>
+    <string name="supplier_bob">Bob</string>
+
+    <string name="product_name_missing">The product must have a name</string>
+    <string name="product_price_missing">The product must have a price</string>
+    <string name="product_quantity_missing">The quantity of the product is missing</string>
+    <string name="suppliers_phone_missing">Phone NO for supplier is missing</string>
+    <string name="supplier_missing">The product must have a supplier</string>
+    <string name="product_insert_failed">Adding new product failed</string>
+    <string name="product_update_failed">Updating product failed</string>
+    <string name="product_insert_successful">Adding new product successful</string>
+    <string name="product_update_successful">Updating product was successful</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this product?</string>
+    <string name="editor_delete_product_successful">Product deleted</string>
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+</resources>
